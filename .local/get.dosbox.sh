@@ -6,7 +6,7 @@ cd dosbox-${dosboxversion}
 ./configure --enable-debug=heavy
 make all
 cd ..
-mv dosbox-0.74-3/src/dosbox ~/.local/bin/
+mv dosbox-${dosboxversion}/src/dosbox ~/.local/bin/
 rm dosbox-${dosboxversion}.tar.gz
 rm -r dosbox-${dosboxversion}
 
