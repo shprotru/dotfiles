@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=HOMM2
+Comment=Heroes of Might and Magic II
+Path=/home/eax/homm2
+Terminal=false
+Icon=/home/eax/homm2/homm2sw.png
+TryExec=/home/eax/homm2/launcher.sh
+Exec=/home/eax/homm2/launcher.sh
+Categories=Game;
