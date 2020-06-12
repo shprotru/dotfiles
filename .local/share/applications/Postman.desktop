@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Postman
+Comment=Supercharge your API workflow
+Exec=postman
+Icon=postman.png
+#Exec="/home/eax/Postman/app/Postman"

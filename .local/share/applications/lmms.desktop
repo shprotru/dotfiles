@@ -1,8 +1,8 @@
 [Desktop Entry]
 Version=1.0
 Name=lmms
-Exec=/home/eax/.local/appimages/lmms.appimage
-Icon=/home/eax/.local/share/icons/lmms.png
+Exec=lmms
+Icon=lmms.png
 Terminal=false
 Type=Application
 Categories=Utility;
