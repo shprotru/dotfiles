@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Name=krita
+Exec=/home/eax/.local/appimages/krita.appimage
+Icon=/home/eax/.local/share/icons/krita.png
+Terminal=false
+Type=Application
+Categories=Utility;
