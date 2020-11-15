@@ -12,7 +12,7 @@ else
 	mkdir -p $GO_DEST
 	docker run --mount type=volume,dst=/usr/local/go,volume-driver=local,volume-opt=type=none,volume-opt=o=bind,volume-opt=device=$GO_DEST golang
 	sudo chown -R $USER:$USER $GO_DEST
-	export GOROOT=$HOME/.local/go
+	export GOROOT=$GO_DEST
 	export PATH=$PATH:$GOROOT/bin
 fi
 
