@@ -1,6 +1,10 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+LC_ALL="en_US.UTF-8"
+LANG="en_US.UTF-8"
+LANGUAGE="en_US:en"
+
 _comp_options+=(globdots) # With hidden files
 
 # Path to your oh-my-zsh installation.
