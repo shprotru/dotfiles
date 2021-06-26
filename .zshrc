@@ -89,6 +89,9 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+ZPLUG_HOME="$HOME/.local/zplug"
+source "$HOME/.local/zplug/init.zsh"
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -124,3 +127,7 @@ bindkey "^[[1~" beginning-of-line
 bindkey "^[[4~" end-of-line
 
 
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/home/eax/.sdkman"
+[[ -s "/home/eax/.sdkman/bin/sdkman-init.sh" ]] && source "/home/eax/.sdkman/bin/sdkman-init.sh"
