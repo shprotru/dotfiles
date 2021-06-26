@@ -1,0 +1,18 @@
+[Desktop Entry]
+Comment[de_DE]=
+Comment=
+Exec=/home/eax/ghidra/ghidraRun
+GenericName=Ghidra Disassembler and Decompiler
+Icon=/home/eax/ghidra/
+MimeType=
+Name[de_DE]=Ghidra
+Name=Ghidra
+Path=/opt/ghidra
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
