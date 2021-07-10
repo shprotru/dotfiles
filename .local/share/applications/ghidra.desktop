@@ -1,11 +1,11 @@
 [Desktop Entry]
 Comment=
-Exec=/home/eax/.local/ghidra.dst/ghidraRun
+Exec=/home/eax/.local/ghidra/ghidraRun
 GenericName=Ghidra Disassembler and Decompiler
 Icon=ghidra.png
 MimeType=
 Name=Ghidra
-Path=/home/eax/.local/ghidra.dst
+Path=/home/eax/.local/ghidra
 StartupNotify=true
 Terminal=false
 TerminalOptions=

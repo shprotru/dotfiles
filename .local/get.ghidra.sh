@@ -1,8 +1,9 @@
 #!/bin/bash
 ghidrapath=ghidra_10.*
-targetpath=ghidra.dst
-git clone https://github.com/NationalSecurityAgency/ghidra
-cd ghidra
+targetpath=ghidra
+srcpath=ghidra.src
+git clone https://github.com/NationalSecurityAgency/ghidra ${srcpath}
+cd ${srcpath}
 gradle --init-script gradle/support/fetchDependencies.gradle init
 gradle buildGhidra
 unzip build/dist/${ghidrapath}.zip -d build/dist
@@ -14,5 +15,5 @@ mv build/dist/${ghidrapath} ../${targetpath}
 #gradle eclipse -PeclipsePDE
 #gradle prepDev
 cd ..
-rm -rf ghidra
+rm -rf ${srcpath}
 
